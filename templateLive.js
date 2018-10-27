@@ -74,31 +74,36 @@ console.log($value$);
 // log
 
 
-$arr$.map((item,index)=>(
+$arr$.map((item,index)=>({
     $end$
-))
+})
 //map
 
-$arr$.forEach((item,index)=>(
+$arr$.map((item,index)=>(
     $end$
-))
+)
+//mp
+
+$arr$.forEach((item,index)=>{
+    $end$
+})
 //forEach
 
 
-$arr$.some((item,index)=>(
+$arr$.some((item,index)=>{
     $end$
-))
+})
 //some
 
 
-$arr$.every((item,index)=>(
+$arr$.every((item,index)=>{
     $end$
-))
+})
 //every
 
-$arr$.filter((item,index)=>(
+$arr$.filter((item,index)=>{
     $end$
-))
+})
 //filter
 
 $key$:$vlaue$,
