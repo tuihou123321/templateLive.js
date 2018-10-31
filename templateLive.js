@@ -1,5 +1,5 @@
 ##webstorm代码简写
-
+2
 import React, {Component} from 'react';
 export default class $Name$ extends Component {
     state = {
