@@ -1,4 +1,4 @@
-##webstorm代码简写
+##webstorm代码简写1
 
 import React, {Component} from 'react';
 export default class $Name$ extends Component {
