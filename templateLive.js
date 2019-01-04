@@ -1,38 +1,23 @@
-##webstorm代码简写
-2
-import React, {Component} from 'react';
-export default class $Name$ extends Component {
-    state = {
-    }
-    componentDidMount(){
-    }
-    render() {
-        return (
-            <div>
-                $value$
-            </div>
-        );
-    }
-}
-//react,reactP
+// js常用原生语法简写
 
+console.log($value$);
+// lg
 
-import React, {Component} from 'react';
-export default function $Name$($arg$){
-    return (
-        <div>
-            $value$
-        </div>
-    );
-}
-//reactF
+this.
+//t.
 
+let $key$=$value$
+//l.
 
+let {$value$}=$result$;
+// lvr
 
-this.setState({
-  $k$:$v$
- })
-//  set
+localStorage.setItem(`"${$key$}"`,$value$);
+//l.s
+
+localStorage.getItem(`${$key$}`)
+//l.g
+
 
 $fun$($arg$){
     $end$
@@ -67,44 +52,38 @@ $isTrue$ ? $a$:$b$;
 $isTrue$ || $value$;
 // |
 
-let {$value$}=$result$;
-// lvr
 
-console.log($value$);
-// log
-
-
-$arr$.map((item,index)=>({
-    $end$
+$arr$.map((item,index)=>{
+    return $end$
 })
-//map
+//mp
 
 $arr$.map((item,index)=>(
     $end$
-)
-//mp
+))
+//mp.
 
 $arr$.forEach((item,index)=>{
     $end$
 })
-//forEach
+//fe
 
 
 $arr$.some((item,index)=>{
-    $end$
+    return $end$
 })
-//some
+//so
 
 
 $arr$.every((item,index)=>{
-    $end$
+    return $end$
 })
-//every
+//ev
 
 $arr$.filter((item,index)=>{
-    $end$
+    return $end$
 })
-//filter
+//fi
 
 $key$:$vlaue$,
 //kv
@@ -148,4 +127,27 @@ if($bool$){
     $then3$
 }
 //iel
+
+
+JSON.stringify($string$)
+//js
+
+JSON.parse($string$)
+//jp
+
+
+switch($value$)
+{
+    case $val1$:
+        $todo1$
+        break;
+    case $val2$:
+        $todo2$
+        break;
+    default:
+        $todo3$
+}
+//sw
+
+
 
