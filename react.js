@@ -21,6 +21,7 @@ classNames({obj})
 //cns  ,第三方库
 
 import React, {Component} from 'react';
+
 export default class $Name$ extends Component {
     state = {
     }
@@ -34,18 +35,52 @@ export default class $Name$ extends Component {
     );
     }
 }
-//react,reactP
+//re
 
 
-import React, {Component} from 'react';
-export default function $Name$($arg$){
+import React from 'react';
+import PropTypes from "prop-types"
+
+let propTypes={
+
+}
+function $Name$($arg$){
     return (
         <div>
         $value$
         </div>
-);
+    );
 }
-//reactF
+$Name$.propTypes=propTypes;
+export default $Name$;
+//ref
+
+
+import React, { PureComponent } from 'react';
+import PropTypes from "prop-types"
+
+export default class $Name$ extends PureComponent {
+    static propTypes = {}
+    state = {}
+
+    componentDidMount() {
+    }
+
+    render() {
+        return(
+            <div >
+            $value$
+            </div>
+        )
+    }
+}
+//rep
+
+import PropTypes from "prop-types"
+// i.pt
+PropTypes
+//pt
+
 
 
 
