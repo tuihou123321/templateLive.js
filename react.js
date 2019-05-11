@@ -1,10 +1,10 @@
 // react常用语法简写
 
 this.state
-// t.s
+// ts
 
 this.props
-//t.p
+//tp
 
 this.setState({
     $k$:$v$
@@ -12,13 +12,6 @@ this.setState({
 //  set
 
 
-
-className={"$value$"}
-//cn
-
-
-classNames({obj})
-//cns  ,第三方库
 
 import React, {Component} from 'react';
 
