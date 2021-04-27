@@ -1,5 +1,6 @@
 // react常用语法简写
 
+
 this.state
 // ts
 
@@ -9,7 +10,7 @@ this.props
 this.setState({
     $k$:$v$
 })
-//  set
+//  ss
 
 
 
@@ -20,6 +21,7 @@ export default class $Name$ extends Component {
     }
     componentDidMount(){
     }
+
     render() {
         return (
             <div>
@@ -73,6 +75,8 @@ import PropTypes from "prop-types"
 // i.pt
 PropTypes
 //pt
+
+
 
 
 
