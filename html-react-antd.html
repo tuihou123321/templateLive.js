@@ -19,6 +19,7 @@
 <body>
 
 <div id="app"></div>
+<script> const mountNode = document.getElementById('app')</script>
 
 
 <script type="text/babel">
@@ -35,10 +36,7 @@
     };
 
 
-    ReactDOM.render(
-        <App />,
-        document.getElementById('app')
-    );
+    ReactDOM.render(<App />, mountNode);
 </script>
 </body>
 </html>
