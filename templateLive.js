@@ -1,3 +1,8 @@
+
+
+
+
+
 // js常用原生语法简写
 
 console.log($value$);
